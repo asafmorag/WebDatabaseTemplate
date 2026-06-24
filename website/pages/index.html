@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Your Restaurant</title>
+
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+<div id="hero">
+
+    <div id="navbar">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="חפש מסעדה..."
+        >
+
+        <div class="dropdown">
+            <button id="cityBtn">
+                בחר עיר ▾
+            </button>
+
+            <div class="dropdown-content">
+                <a id="telAvivBtn" class="glow">תל אביב</a>
+                <a id="jerusalemBtn" class="glow">ירושלים</a>
+                <a id="petahTikvaBtn" class="glow">פתח תקווה</a>
+                <a id="hodHasharonBtn" class="glow">הוד השרון</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button id="typeBtn">
+                סוג אוכל ▾
+            </button>
+
+            <div class="dropdown-content">
+                <a id="asianBtn" class="glow">אסייתי</a>
+                <a id="meatBtn" class="glow">בשרי</a>
+                <a id="italianBtn" class="glow">איטלקי</a>
+                <a id="cafeBtn" class="glow">בתי קפה</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button id="kosher">
+                כשרות ▾
+            </button>
+
+            <div class="dropdown-content">
+                <a id="kosherTrueBtn" class="glow">כשר</a>
+                <a id="kosherFalseBtn" class="glow">לא כשר</a>
+            </div>
+        </div>
+
+        <button id="backBtn">
+            חזור
+        </button>
+
+    </div>
+
+    <div id="restaurantsContainer"></div>
+
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+
+        <h2 id="modalTitle">
+            הזמנת מקום
+        </h2>
+
+        <input
+            type="date"
+            id="bookingDate"
+        >
+
+        <input
+            type="time"
+            id="bookingTime"
+        >
+
+        <button id="confirmBookingBtn">
+            אשר הזמנה
+        </button>
+
+    </div>
+</div>
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
+=======
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Index Page</title>
+  </head>
+
+  <body>
+    <input id="itemInput" placeholder="Item">
+    <input id="amountInput" placeholder="Amount">
+    <button id="addButton">Add</button>
+    <ul id="itemsUl"></ul>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
+>>>>>>> 8535379cfb342f26e322fc84717b99ef8845e15c
