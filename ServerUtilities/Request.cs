@@ -133,12 +133,9 @@ public class Request(HttpListenerContext context, string path)
 
     return true;
   }
-<<<<<<< HEAD
 
     internal T GetParam<T>(T v)
     {
         throw new NotImplementedException();
     }
-=======
->>>>>>> 8535379cfb342f26e322fc84717b99ef8845e15c
 }
